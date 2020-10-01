@@ -23,7 +23,7 @@ class Contact
 				case 1:
 				String n;
 				System.out.print("Enter name:-");
-				n=s.next();
+				n=s.nextLine();
 				long m=0;
 				System.out.print("Enter Mobile number:-");
 				m=s.nextLong();
@@ -81,7 +81,7 @@ class Contact
 					String you;
 					int flag=0;
 					System.out.print("Enter your name:-");
-					you=s.next();
+					you=s.nextLine();
 				for(int i=0;i<index;i++)
 					{
 						if(name[i].contains(you))
